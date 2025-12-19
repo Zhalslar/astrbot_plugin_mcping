@@ -1,12 +1,13 @@
 import base64
 import io
-from pathlib import Path
 from io import BytesIO
-from typing import Union
-from astrbot import logger
-from PIL import Image, ImageFont, ImageDraw
-from mcstatus import JavaServer, BedrockServer
+from pathlib import Path
+
+from mcstatus import BedrockServer, JavaServer
 from mcstatus.status_response import BedrockStatusResponse
+from PIL import Image, ImageDraw, ImageFont
+
+from astrbot import logger
 
 FONT_PATH: Path = Path(__file__).resolve().parent / "resource" / "simhei.ttf"
 BACKGROUND_PATH: Path = Path(__file__).resolve().parent / "resource" / "background.png"
@@ -103,7 +104,7 @@ def get_color(color_code: str) -> tuple:
 
 def get_server_info_image(
     motd: str,
-    icon_base64: Union[None, str],
+    icon_base64: None | str,
     online: str,
     ping: int,
     server_version: str,

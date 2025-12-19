@@ -1,7 +1,7 @@
-name: astrbot_plugin_mcping # 这是你的插件的唯一识别名。
+name: astrbot_plugin_mcping
 display_name: MC服务器状态查询
-desc: 获取 Minecraft JE/BE 服务器 Motd 图片信息  # 插件简短描述
-help: ...  # 插件的帮助信息
-version: v1.0.3 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Zhalslar # 作者
-repo: https://github.com/Zhalslar/astrbot_plugin_mcping # 插件的仓库地址
+desc: 获取 Minecraft JE/BE 服务器 Motd 图片信息
+help: 略
+version: v1.0.3
+author: Zhalslar
+repo: https://github.com/Zhalslar/astrbot_plugin_mcping

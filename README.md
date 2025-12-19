@@ -22,16 +22,7 @@ _✨MC服务器状态插件 ✨_
 
 ## 📦 安装
 
-- astrbot插件市场搜索astrbot_plugin_mcping，点击安装，等待完成即可。
-- 或者可以直接克隆源码到插件文件夹：
-
-```bash
-# 克隆仓库到插件目录
-cd /AstrBot/data/plugins
-git clone https://github.com/Zhalslar/astrbot_plugin_mcping
-
-# 控制台重启AstrBot
-```
+在astrbot插件市场搜索astrbot_plugin_mcping，点击安装即可。
 
 ## ⚙️ 配置
 
